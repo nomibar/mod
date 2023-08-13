@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": [
+    {
+      "item": "tutorialmod:zircon_helmet"
+    },
+    {
+      "item": "tutorialmod:zircon_chestplate"
+    },
+    {
+      "item": "tutorialmod:zircon_leggings"
+    },
+    {
+      "item": "tutorialmod:zircon_boots"
+    }
+  ],
+  "result": "tutorialmod:zircon_nugget"
+}

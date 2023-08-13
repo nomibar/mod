@@ -1,0 +1,7 @@
+{
+
+  "parent": "tutorialmod:block/zircon_block",
+  "textures": {
+    "layer0": "tutorialmod:item/zircon"
+  }
+}

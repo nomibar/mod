@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:dandelion"
+    },
+    "B": {
+      "item": "minecraft:poppy"
+    },
+    "C": {
+      "item": "minecraft:allium"
+    },
+    "E": {
+      "item": "minecraft:oxeye_daisy"
+    },
+    "F": {
+      "item": "minecraft:sunflower"
+    },
+    "G": {
+      "item": "minecraft:lilac"
+    },
+    "H": {
+      "item": "minecraft:rose_bush"
+    },
+    "I": {
+      "item": "minecraft:peony"
+    },
+    "J": {
+      "item": "minecraft:blue_orchid"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "EFG",
+    "HIJ"
+  ],
+  "result": {
+    "item": "tutorialmod:trefle"
+  }
+}
