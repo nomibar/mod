@@ -16,6 +16,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.nomi.tutorialmod.TutorialMod;
 import net.nomi.tutorialmod.base.ModArmorMaterial;
 import net.nomi.tutorialmod.item.custom.EightBallItem;
+import net.nomi.tutorialmod.item.custom.ModFood;
 import net.nomi.tutorialmod.item.custom.Trefle;
 
 public class ModItems {
@@ -47,6 +48,8 @@ public class ModItems {
     public static final RegistryObject<Item> ZIRCON_NUGGET = ITEMS.register("zircon_nugget",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.TUTORIAL_TAB)));
 
+    public static final RegistryObject<Item>PATATE = ITEMS.register("patate",
+            () -> new Item(new Item.Properties().food(ModFood.PATATE).tab(ModCreativeModTab.TUTORIAL_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
